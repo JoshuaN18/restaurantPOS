@@ -7,8 +7,8 @@ import Confirmation from './components/Confirmation';
 function App() {
   return (
    //nav class is temporary. needed for testing purposes.  
-   <body>
    <Router>
+    <div className="bg-dark">
     <nav>
       <Link to="/">Home </Link>
       <Link to="/menu">Menu </Link>
@@ -21,9 +21,8 @@ function App() {
       <Route path="/payment"element={<Payment/>}/>
       <Route path="/confirmed"element={<Confirmation/>}/>
     </Routes>
-    
+    </div>
    </Router>
-  </body>
   );
 }
 

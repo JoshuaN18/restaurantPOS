@@ -7,7 +7,7 @@ import Confirmation from './components/Confirmation';
 function App() {
   return (
    //nav class is temporary. needed for testing purposes.  
-   <body>
+   <body className="bg-dark text-white">
    <Router>
     <nav>
       <Link to="/">Home </Link>

@@ -6,8 +6,6 @@ import Payment from './components/Payment';
 import Confirmation from './components/Confirmation';
 function App() {
   return (
-   //nav class is temporary. needed for testing purposes.  
-   <body>
    <Router>
     <nav>
       <Link to="/">Home </Link>
@@ -21,9 +19,7 @@ function App() {
       <Route path="/payment"element={<Payment/>}/>
       <Route path="/confirmed"element={<Confirmation/>}/>
     </Routes>
-    
    </Router>
-  </body>
   );
 }
 
