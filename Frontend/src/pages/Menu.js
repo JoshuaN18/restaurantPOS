@@ -9,7 +9,7 @@ const Menu = () => {
         <h3>A classic cheeseburger. <span> $5.99 </span> </h3>
         <div>Lunch </div>
         <div>Dinner </div>
-        <Button variant="danger">Add</Button>
+        <Button variant="light">Add</Button>
     </div>
     // <!-- different sections for differernt types of food -->
 
