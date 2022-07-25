@@ -3,4 +3,6 @@ Made with 4 people: Joshua Nam, Abinand Nanthananthan, Rahul Nagulapally, Xuanha
 
 The goal of this project is to be able to help individuals pay at a resturant without wasting excess paper for menus and whatnot, while also streamlining the payments system. This will not only simplifiy the paying process for waiters who are working incredibly hard, but also prevent excess paper from being wasted on menus.  
 
-Our project will use React for the frontend and Django for the backend.
+For the frontend we will use React.js as our main frontend library along with other libraries such as Bootstrap, MaterialUI, and React router dom. 
+
+The backend will use Django
