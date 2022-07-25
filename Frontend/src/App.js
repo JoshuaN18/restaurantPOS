@@ -1,9 +1,9 @@
 import './App.css';
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
-import Homepage from './components/Homepage';
-import Menu from './components/Menu';
-import Payment from './components/Payment';
-import Confirmation from './components/Confirmation';
+import Homepage from './pages/Homepage';
+import Menu from './pages/Menu';
+import Payment from './pages/Payment';
+import Confirmation from './pages/Confirmation';
 function App() {
   return (
    //nav class is temporary. needed for testing purposes.  
