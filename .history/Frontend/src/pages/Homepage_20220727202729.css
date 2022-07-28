@@ -1,0 +1,25 @@
+.homepage {
+  margin: auto;
+  width: 50%;
+  height: auto;
+  border: 10px solid rgb(243, 243, 243);
+  padding: 150px;
+  /*position:top;*/
+
+  
+  }
+  
+.display-3
+{
+  text-align:center;
+
+
+
+}
+
+.display-6
+{
+  text-decoration: dashed;
+
+
+}

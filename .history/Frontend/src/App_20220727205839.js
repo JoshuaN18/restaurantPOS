@@ -4,8 +4,6 @@ import Homepage from './pages/Homepage';
 import Menu from './pages/Menu';
 import Payment from './pages/Payment';
 import Confirmation from './pages/Confirmation';
-import Login from './pages/Login';
-
 function App() {
   return (
    //nav class is temporary. needed for testing purposes.  
