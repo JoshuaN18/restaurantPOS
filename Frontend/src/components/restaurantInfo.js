@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 
 // const restaurantInfo = (props) => {
 //     const { name, image, price, reviews, rating, categories } =
