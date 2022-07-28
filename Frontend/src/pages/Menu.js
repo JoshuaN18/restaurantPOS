@@ -1,5 +1,6 @@
 import React from 'react'
 import {Button} from 'react-bootstrap';
+import restuarantInfo from '../components/restaurantInfo.js'
 const Menu = () => {
   return (
     <div> 
@@ -9,6 +10,7 @@ const Menu = () => {
         <h3>A classic cheeseburger. <span> $5.99 </span> </h3>
         <div>Lunch </div>
         <div>Dinner </div>
+        <restaurantInfo/>
         <Button variant="light">Add</Button>
     </div>
     // <!-- different sections for differernt types of food -->
