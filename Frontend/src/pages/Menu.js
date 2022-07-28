@@ -4,7 +4,7 @@ import restuarantInfo from '../components/restaurantInfo.js'
 const Menu = () => {
   return (
     <div> 
-        <h1>Menu</h1>
+        <h1 className='text-center'>Menu</h1>
         <div>Breakfast </div>
         <h2>Burger</h2>
         <h3>A classic cheeseburger. <span> $5.99 </span> </h3>
