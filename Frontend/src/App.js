@@ -11,7 +11,7 @@ function App() {
    //nav class is temporary. needed for testing purposes.  
    <body className='text-white'>
    <Router>
-    <nav>
+    <nav className='text-center'>
       <Link to="/">Home </Link>
       <Link to="/menu">Menu </Link>
       <Link to="/payment">Payment </Link>
