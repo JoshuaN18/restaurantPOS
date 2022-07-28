@@ -3,9 +3,10 @@ import {Button, Col, Container, Form, Row} from "react-bootstrap"
 
 const Login = () => {
   return (
-    <div class="container-fluid" className="text-center">
+    // div styling taken from stackoverflow, can adjust later
+    <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh'}}> 
         <Row>
-          <Col lg={4} md={6} sm={12}>
+          <Col lg={12} md={6} sm={12}>
             <Form>
               <Form.Group controlID="formBasicEmail">
                 <Form.Control type="email" placeholder="Enter Email"/>
