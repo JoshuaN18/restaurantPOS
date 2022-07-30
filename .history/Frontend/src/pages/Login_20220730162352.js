@@ -4,7 +4,7 @@ import {Button, Col, Container, Form, Row} from "react-bootstrap"
 const Login = () => {
   return (
     // div styling taken from stackoverflow, can adjust later
-    <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh'}}> 
+    <div className="p-3" style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh'}}> 
         
         <Row>
           <h1>Admin login</h1>
@@ -16,7 +16,7 @@ const Login = () => {
               <Form.Group className="mb-3" controlID="formBasicPassword">
                 <Form.Control type="password" placeholder="Password"/>
               </Form.Group>
-              <Button variant="primary btn-block" type="submit">Login</Button>
+              <Button className="text-center"variant="primary btn-block" type="submit">Login</Button>
             </Form>
           </Col>
           <Col lg={4} md={6} sm={12}>
