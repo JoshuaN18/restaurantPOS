@@ -21,7 +21,7 @@ const Menu = () => {
         }}
       />
         <h1 className="text-center">Cart</h1>
-        <Button variant="light">Delete</Button>
+        <button variant="light">Delete</button>
 
     </div>
     

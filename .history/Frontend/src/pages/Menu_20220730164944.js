@@ -15,13 +15,10 @@ const Menu = () => {
         <hr
         style={{
           background: 'white',
-          color: 'white',
-          borderColor: 'blue',
           height: '5px',
         }}
       />
         <h1 className="text-center">Cart</h1>
-        <Button variant="light">Delete</Button>
 
     </div>
     

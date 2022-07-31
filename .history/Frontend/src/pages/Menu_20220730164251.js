@@ -16,13 +16,11 @@ const Menu = () => {
         style={{
           background: 'white',
           color: 'white',
-          borderColor: 'blue',
+          borderColor: 'white',
           height: '5px',
         }}
       />
-        <h1 className="text-center">Cart</h1>
-        <Button variant="light">Delete</Button>
-
+      
     </div>
     
     // <!-- different sections for differernt types of food -->

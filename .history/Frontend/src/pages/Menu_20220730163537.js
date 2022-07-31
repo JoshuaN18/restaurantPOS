@@ -4,7 +4,6 @@ import {Button} from 'react-bootstrap';
 const Menu = () => {
   return (
     <div> 
-        
         <h1 className='text-center'>Menu</h1>
         <div>Breakfast </div>
         <h2>Burger</h2>
@@ -12,19 +11,28 @@ const Menu = () => {
         <div>Lunch </div>
         <div>Dinner </div>
         <Button variant="light">Add</Button>
-        <hr
+    </div>
+      <div>
+      {/* 👇️ colored horizontal line */}
+      <hr
         style={{
-          background: 'white',
-          color: 'white',
-          borderColor: 'blue',
-          height: '5px',
+          background: 'lime',
+          color: 'lime',
+          borderColor: 'lime',
+          height: '3px',
         }}
       />
-        <h1 className="text-center">Cart</h1>
-        <Button variant="light">Delete</Button>
 
-    </div>
-    
+      {/* 👇️ colored horizontal line */}
+      <div
+        style={{
+          background: 'lime',
+          height: '3px',
+        }}
+      />
+
+      {/* 👇️ basic horizontal line */}
+      <hr />
     // <!-- different sections for differernt types of food -->
 
     // <!-- each item will need a name, image (if possible), description and price and quantity and be able to be selected -->

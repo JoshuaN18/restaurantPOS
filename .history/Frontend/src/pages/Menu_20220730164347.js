@@ -14,15 +14,13 @@ const Menu = () => {
         <Button variant="light">Add</Button>
         <hr
         style={{
-          background: 'white',
-          color: 'white',
-          borderColor: 'blue',
+          background: 'grey',
+          color: 'grey',
+          borderColor: 'grey',
           height: '5px',
         }}
       />
-        <h1 className="text-center">Cart</h1>
-        <Button variant="light">Delete</Button>
-
+      
     </div>
     
     // <!-- different sections for differernt types of food -->
