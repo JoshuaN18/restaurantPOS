@@ -1,11 +1,12 @@
 import React from 'react'
 import {Button} from 'react-bootstrap';
-//import restuarantInfo from '../components/restaurantInfo.js'
+import RestaurantInfo from '../components/RestaurantInfo'
+import {getFakeRestaurant} from '../service/restaurantApis'
 const Menu = () => {
+  let restaurant = getFakeRestaurant();
   return (
     <div> 
-        
-        <h1 className='text-center'>Menu</h1>
+        {/* <h1 className='text-center'>Menu</h1>
         <div>Breakfast </div>
         <h2>Burger</h2>
         <h3>A classic cheeseburger. <span> $5.99 </span> </h3>
@@ -21,7 +22,9 @@ const Menu = () => {
         }}
       />
         <h1 className="text-center">Cart</h1>
-        <Button variant="light">Delete</Button>
+        <Button variant="light">Delete</Button> */}
+        <RestaurantInfo params={restaurant}></RestaurantInfo>
+
 
     </div>
     
