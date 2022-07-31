@@ -9,5 +9,13 @@ export function getFakeRestaurant(){
     price: "$$",
     reviews: 700,
     rating: 4.9,
+  };
+}
+
+export function getFakeRestaurantList(quantity){
+  let restaurantList = Array();
+  for(var i = 0; i < quantity; i++){
+    restaurantList.push(getFakeRestaurant());
   }
+  return restaurantList;
 }
