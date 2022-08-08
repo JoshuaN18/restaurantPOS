@@ -4,6 +4,7 @@ import RestaurantInfo from '../components/RestaurantInfo'
 import {getFakeRestaurant} from '../service/restaurantApis'
 const Menu = () => {
   let restaurant = getFakeRestaurant();
+  console.log(restaurant)
   return (
     <div> 
         {/* <h1 className='text-center'>Menu</h1>
